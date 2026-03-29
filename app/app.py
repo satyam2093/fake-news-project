@@ -7,8 +7,8 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 
 # ================== LOAD MODEL ==================
-model = pickle.load(open("../notebook/model.pkl", "rb"))
-vectorizer = pickle.load(open("../notebook/vectorizer.pkl", "rb"))
+model = pickle.load(open("models/model.pkl", "rb"))
+vectorizer = pickle.load(open("models/vectorizer.pkl", "rb"))
 
 # ================== CLEAN FUNCTION ==================
 ps = PorterStemmer()
