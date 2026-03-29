@@ -127,8 +127,8 @@ elif page == "📊 Data Analysis":
 
     st.title("📊 Data Analysis Dashboard")
 
-    fake_df = pd.read_csv("../data/Fake.csv")
-    true_df = pd.read_csv("../data/True.csv")
+   fake_df = pd.read_csv("data/Fake.csv")
+   true_df = pd.read_csv("data/True.csv")
 
     fake_df['label'] = 0
     true_df['label'] = 1
